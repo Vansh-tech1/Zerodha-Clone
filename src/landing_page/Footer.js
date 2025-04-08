@@ -4,13 +4,13 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="border-top footer-main-cont">
-      <div className="container mt-4 px-5 footer-container ">
+      <div className="container mt-5  footer-container ">
         <div className="row between main-footer d-flex ">
           <div className="col ">
             <img src="media/images/logo.svg" style={{ width: "55%" }} alt="logo" />
 
             <p className="mt-2 mb-1 text-muted">
-              © 2010 - 2025, Zerodha Broking Ltd.
+              &copy; 2010 - 2025, Zerodha Broking Ltd.
             </p>
             <p className="mt-1 text-muted">All rights reserved.</p>
           </div>
